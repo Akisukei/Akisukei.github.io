@@ -1,1 +1,126 @@
-My GitPage
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Home</title>
+		<meta name="author" content="TNGUYEN"/>
+		<link rel="stylesheet" type="text/css" href="resumeCss.css">
+		<script type="text/javascript" src="utils.js"></script>
+		<script type="text/javascript" src="resumeJs.js"></script>
+		<!--<script type="text/javascript" src="chatroom.js"></script>-->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<!--<img src="images/gradient.png" class="headerGradient">-->
+		</header>
+		<nav>
+			<!--<hr id="navline" size="1" color="#252525">-->
+			<ul id="navBar" style="opacity: 0.0;">
+				<li id="skillsBtn" class="navBtn">SKILLS</li>
+				<li id="workBtn" class="navBtn">WORK</li>
+				<li id="educationBtn" class="navBtn">EDUCATION</li>
+				<li id="passionBtn" class="navBtn">PASSION</li>
+			</ul>
+		</nav>
+		<div id="cover" style="opacity: 1.0;">
+			<br/><br/><br/><br/>
+			<h1>Hey!</h1>
+			<h2>I'm Thanh Nguyen</h2>
+			<img id="face">
+			<h2>I'm a </h2><h1>DAWSON </h1><h2>college student</h2>
+			<h2>studying in </h2><h1>COMPUTER<br/>SCIENCE</h1>
+			<br/><br/>
+			<img id="coverBtn">
+		</div>
+		<div id="contentDiv">
+			<div id="contentWrapper"  style="opacity: 0.0;">
+				<div id="titleText"></div>
+				<img src="images/blueline.png">
+				<br/><br/><br/>
+				<div id="contentText"></div>
+			</div>
+			<div id="workGalleryWrapper">
+				<div id="galleryTitle">
+					<h1>My Gallery</h1>
+					<img src="images/blueline.png">
+					<br/><br/><br/>
+				</div>
+				<div id="gallery">
+					<h2>CODES</h2><br/>
+					<img src="gallery/javacode.png" class="gallerypic">
+					<img src="gallery/mysqlcode.png" class="gallerypic">
+					<img src="gallery/csharpcode.png" class="gallerypic">
+					<img src="gallery/webcode.png" class="gallerypic">
+					<h2>WORK</h2><br/>
+					<img src="gallery/me1.jpg" class="gallerypic">
+					<img src="gallery/me2.jpg" class="gallerypic">
+					<img src="gallery/me4.jpg" class="gallerypic">
+					<img src="gallery/work1.jpg" class="gallerypic">
+					<h2>HOBBIES</h2><br/>
+					<img src="gallery/hobby1.jpg" class="gallerypic">
+					<img src="gallery/hobby2.jpg" class="gallerypic">
+					<img src="gallery/lan1.png" class="gallerypic">
+					<img src="gallery/lan2.png" class="gallerypic">
+				</div>
+			</div>
+			<!--for some reason I cannot click the link that directs to the game.
+				If I place it outside the contentDiv, it works completely fine.
+				I tried.. --><!--
+			<div id="gamelink">
+				<a href="Project1/memorygame.html"><h1>CLICK HERE</h1></a><h2> TO TRY OUT MY MEMORY GAME</h2>
+			</div>-->
+		</div>
+		<div id="gamelink">
+				<a href="Project1/memorygame.html"><h1>CLICK HERE</h1></a><h1> TO TRY OUT MY MEMORY GAME</h1>
+			</div>
+		
+		<footer>
+			<div id="contactInfo">
+				<br/><br/>
+				<h3>Contact Me</h3><br/>
+				<h4>
+					<img src="images/mail_icon.png">&nbsp;&nbsp;&nbsp;justin321261@hotmail.com
+				</h4>
+				<br/>
+				<h4>
+					<img src="images/phone_icon.png">&nbsp;&nbsp;
+					514-299-7300
+				</h4>
+			</div>
+			<div id="followInfo">
+				<br/><br/>
+				<h3>Follow Me</h3><br/>
+				<h4>
+					<img src="images/fb_icon.png">&nbsp;&nbsp;
+					<img src="images/twitter_icon.png">&nbsp;&nbsp;
+					<img src="images/googleplus_icon.png">
+				</h4>
+			</div>
+			<div id="chatroomWrapper">
+				<br/><br/>
+				<h3>Come Chat with me</h3>
+
+				<div id="nameBox">
+					<label for="nameInput" id="chatLabel">
+						Enter a name:
+						<input type="text" size=20 maxlength=20
+						name="Name" id="nameInput">
+					</label>
+				</div>
+
+				<div id="chatbox">
+				</div>
+
+				<div id="chatMsgBox">
+					<label for="msgbox">
+						<textarea id="msgbox" rows="1" cols="45">
+						</textarea>
+					</label>
+					<input type="button" value="Send" id="sendBtn">
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,228 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 150%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+header {
+	min-height: 15%;
+	/*width: 100%;*/
+	background-image: url("images/Landscape_3.jpg");
+	background-size: cover;
+}
+/*
+img.headerGradient {
+	width: 100%;
+	/*height: 100%;
+	vertical-align: text-bottom;
+	/*min-height: 20%;
+	position: absolute;
+	background-image: url("images/gradient.png");
+	background-size: cover;
+}
+*/
+nav {
+	min-height: 5%;
+	background-color: #252525;
+	font-size: 35px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-left: 10%;
+	
+
+}
+
+.navBtn {
+	float: left;
+	padding: 16px 35px;
+}
+
+.navBtn:hover {
+	background-color: #0C0C0C;
+}
+
+h1 {
+	color: #16B8BF;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#contentDiv {
+	min-height: 110%;
+	background-color: #0C0C0C;
+	border-style: inset;
+	border-width: 6px;
+	border-color: #0F0F0F;
+	z-index: 1;
+}
+
+#contentWrapper {
+	margin-left: 20%;
+	margin-top: 7%;
+	margin-right: 18%;
+}
+
+#contentWrapper p, #contentWrapper h4 {
+	display: inline;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#contentWrapper h4 {
+	color: #16B8BF;
+}
+
+#contentWrapper ul {
+	margin-left: 5%;
+	font-size: 20px;
+}
+
+#contentText {
+	position: relative;
+}
+
+/*for skills tab*/
+#rightSkillList {
+	float: left;
+	position: absolute;
+	left: 41%;
+	top: 35%;
+}
+
+#workGalleryWrapper {
+	margin-top: 7%;
+}
+
+#galleryTitle {
+	margin-left: 20%;
+}
+
+#gallery{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.gallerypic {
+	width: 200px;
+	height: 150px;
+}
+
+#gamelink {
+	text-align: center;
+	margin-top: 2.5%;
+	text-decoration: none;
+}
+
+#cover h1 {
+	font-size: 40px;
+}
+
+#cover h2 {
+	font-size: 20px;
+}
+
+#cover {
+	position: absolute;
+	top: 46%;
+	height: 247%;
+	width: 100%;
+	background-color: #252525;
+	z-index: 2;
+}
+
+#cover h1, #cover h2 {
+	margin-left: 40%;
+}
+
+#cover h1 {
+	font-size: 80px;
+}
+
+#cover h2 {
+	font-size: 40px;
+}
+
+#face {
+	background-image: url("images/myface.jpg");
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+}
+
+#coverBtn {
+	background-image: url("images/cover_btn.jpg");
+	width: 482px;
+	height: 69px;
+	margin-left: 38%;
+}
+
+#coverBtn:hover {
+	background-image: url("images/cover_btn_hover.jpg");
+}
+
+footer {
+	min-height: 15%;
+	background-color: #252525;
+	position: relative;
+}
+
+#contactInfo {
+	margin-left: 10%;
+}
+
+#contactInfo h3, #followInfo h3, #chatroomWrapper h3 {
+	font-size: 30px;
+	color: #16B8BF;
+}
+
+#contactInfo h4 {
+	font-size: 20px;
+}
+
+#followInfo, #chatroomWrapper {
+	margin-left: 10%;
+	position: absolute;
+	left: 30%;
+	top: 0%;
+}
+
+#chatroomWrapper {
+	left: 50%;
+}
+
+#nameBox {
+	margin-left: 3%;
+}
+
+#chatbox {
+	width: 100%;
+	max-width: 100%;
+	height: 75px;
+	background-color: white;
+	color: black;
+	overflow: auto;
+}
+
+#chatMsgBox{
+
+}
+
+#admin {
+	color: #16B8BF;
+}
