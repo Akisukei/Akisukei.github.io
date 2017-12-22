@@ -4,23 +4,37 @@ function displaySkillsText() {
 	g.navBtn[g.previousTopic].style.backgroundColor = "#252525";
 	g.navBtn[0].style.backgroundColor = "#16B8BF";
 
-	g.titleText.innerHTML = "<h1>MY TECHNICAL SKILLS</h1>";
-	g.contentText.innerHTML = "<p>" + 
-	"Studying in Dawson College, my </p><h4>technical skills</h4><p> ranges in many areas. Ranging"+
-	" from </p><h4>web design</h4><p> to creating applications with </p><h4>OOP</h4><p>"+
-	" (Object Oriented Programming) and designing efficient </p><h4>database entity structures</h4><p>."+
-	" Here is the list of skills I have experience in:"
-	+ "</p>" + "<br/><br/><br/><br/>" 
-	+ "<div id='leftSkillList'>"
-	+ "<ul><li>Java</li><li>C#</li><li>HTML</li><li>CSS</li><li>Javascript</li>"
-	+ "<li>MySQL</li><li>Basic business knowledge</li></ul></div>"
-	+ "<div id='rightSkillList'><h4>Other Skills</h4>"
-	+ "<ul><li>Organized along with good sense of responsibilities</li>"
-	+ "<li>Team work and communication abilities</li>"
-	+ "<li>Adaptive in team situation and am told that I have good leadership skills</li>"
-	+ "<li>Learning from constructive criticism and feedbacks</li>"
-	+ "<li>Analytical and creative in making alternative solutions for improvement</li>"
-	+ "<li>Perfectionist, always striving to do the best by hard work</li></ul></div>"
+	g.titleText.innerHTML = "<h1>MY SKILLS</h1>";
+	g.contentText.innerHTML =
+	"<p><span class='subtitle'>Technical Skills<span></p><br/><br/><br/>"+
+	"<p>My skills range in many areas, getting my hands dirty with web designing, developing applications, "+
+	"designing efficient database structures, and more.</p><br/><br/>"+
+	"<ul>"+
+	"<li>Experienced with OOP (object oriented programming) for <span class='hl'>Java</span> and "+
+		"<span class='hl'>Android</span>, very familiar with <span class='hl'>C#</span></li>"+
+	"<li>Practical with <span class='hl'>HTML, CSS, JavaScript, PHP, MySQL,</span> and <span class='hl'>JDBC</span></li>"+
+	"<li>Designing <span class='hl'>UML diagrams for OOP</span> and <span class='hl'>EDMX for databases</span> to create strong and flexible coding</li>"+
+	"<li>Capable of using <span class='hl'>GIT</span> to manage projects among the team and ensure backups </li>"+
+	"<li>Consistent in following <span class='hl'>programming principles</span> and <span class='hl'>strategy patterns</span></li>"+
+	"<li>Strong in <span class='hl'>GUI designing</span></li>"+
+	"<li>Beginner knowledge in <span class='hl'>C++, Unity,</span> and <span class='hl'>Unreal Engine</span></li>"+
+	"</ul><br/><br/>"+
+	"<p><span class='subtitle'>Management Tools<span></p><br/><br/><br/>"+
+	"<ul>"+
+	"<li>Word, PowerPoint, Visio</li>"+
+	"<li>Jira</li>"+
+	"<li>Confluence</li>"+
+	"<li>Invision</li>"+
+	"<li>Clip Paint Studio (similar to PhotoShop)</li>"+
+	"</ul><br/><br/>"+
+	"<p><span class='subtitle'>Transferable Skills<span></p><br/><br/><br/>"+
+	"<ul>"+
+	"<li>Meticulous, organized, planner, evaluative, reflective, responsible</li>"+
+	"<li>Extremely adaptive in team environments while being co-operative, open-minded, and coordinated</li>"+
+	"<li>Knows how to make use of constructive criticism and feedbacks</li>"+
+	"<li>Dedicated, ambitious, and always striving to do my best</li>"+
+	"<li>Excel in creativity and gaining inspirations</li>"+
+	"</ul>"
 	;
 }
 
@@ -30,19 +44,33 @@ function displayWorkText() {
 	g.navBtn[1].style.backgroundColor = "#16B8BF";
 
 	g.titleText.innerHTML = "<h1>MY WORK EXPERIENCE</h1>";
-	g.contentText.innerHTML = "<p>" + 
-	" Only in 2 years of studying, I have participated in many projects, both </p><h4>solo</h4><p> and"+
-	" in a </p><h4>team</h4><p>. We design our projects in ways that prioritize </p><h4>user interaction"+
-	" </h4><p>while coding them as </p><h4>efficient</h4><p> as possible. I've experienced struggles of"+
-	" working in a team as well as retaliating these internal problems at the same time. Being the </p>"+
-	" <h4>leader</h4><p> of a team gave me experience of seeing the difference between a </p><h4>strong"+
-	" cohesive team</h4><p> to a </p><h4>weak unorganized team</h4><p>. These are my main work experience"+
-	" that I've acquired these 2 years:"
-	+ "</p>" + "<br/><br/><br/><br/>" 
-	+ "<ul><li>Built a Java GUI to display processed data for a Clinic hospital using OOP</li>"
-	+ "<li>Designing & implementing games using Visual Studio C#: TicTacToe, Battleship, Tetris</li>"
-	+ "<li>Created a matching game for kids and this website using html, css, and javascript</li>"
-	+ "<li>In the process of exploring more uses of Ajax, XML, Json</li></ul>"
+	g.contentText.innerHTML = "<p><span class='subtitle'>" +
+	"Professional work<span></p><br/><br/>"+
+	"<p><span class='yearTitle'>2017 Summer - Winter</span></p><br/>"+
+	"<p>My manager at <span class='hl'>CityParking</span> kept me after my internship and training was over. "+
+	"From there, I worked closely with two senior developers (one was an advisor) to build the Android app. "+
+	"While looking with two professionals, I was able to absorb a lot of knowledge and criticism. I learned "+
+	"how to use numerous frameworks, implement APIs, and code with good practices. I was also given the role "+
+	"of lead designer for the UI screens of the app. </p><br/><br/>"+
+	"<p><span class='yearTitle'>2017 Spring - Summer</span></p><br/>"+
+	"<p>An Android developer intern at <span class='hl'>CityParking</span> in the course of 4 weeks. Within "+
+	"this period, my first mentor taught me basic frameworks, how to efficiently organize my code, use Sourcetree "+
+	"to manage the project quicker, setting up an architecture, etc. Meanwhile, my manager also showed me how "+
+	"to use Jira to manage tasks, properly create documentation, follow material design guidelines, perform QA, "+
+	"and other skills required in a professional environment. </p><br/><br/>"+
+	"<p><span class='hl'>My work experience as a new graduate is evitably small. However, you can give me the opportunity to expand it! :)</span>"+
+	"</p><br/><br/><br/><br/>"+
+	"<p><span class='subtitle'>School Projects<span></p><br/><br/><br/>"+
+	"<ul>"+
+	"<li><span class='hl'>Android:</span> coded a Tic-Tac-Toe game, a quote generator app, an app to see reviews of popular restaurants all compatible with different phone and pad screen sizes</li>"+
+	"<li><span class='hl'>C#:</span> programmed games such as Tic-Tac-Toe, Battleship, and usage of the MonoGames framework to assist in running and providing animations for Tetris</li>"+
+	"<li><span class='hl'>C#:</span> made a forum engine with ASP.NET</li>"+
+	"<li><span class='hl'>Java:</span> built a hospital queue system application for a clinic using OOP to process patient data</li>"+
+	"<li><span class='hl'>Java:</span> a client e-mailing program to send and receive e-mails using Google’s Gmail</li>"+
+	"<li><span class='hl'>Java:</span> using JSF to create a professional music store website</li>"+
+	"<li><span class='hl'>Java:</span> created a Mastermind game that sends small data in bytes to the server and back</li>"+
+	"<li><span class='hl'>HTML, PHP, CSS, JavaScript:</span> memory game, portfolio website, a chat room using client to server, a custom search auto-completer, a web scraper to extract data from websites (educational purpose)</li>"+
+	"</ul>"
 	;
 }
 
@@ -51,12 +79,23 @@ function displayEducationText() {
 	g.navBtn[g.previousTopic].style.backgroundColor = "#252525";
 	g.navBtn[2].style.backgroundColor = "#16B8BF";
 
-	g.titleText.innerHTML = "<h1>MY EDUCATION HISTORY</h1>";
-	g.contentText.innerHTML = "<h4>" +
-	"2016: </h4><p>Currently in 2nd year, 4th semester in Dawson College, Computer Science</p><br/><h4>"+
-	"2014: </h4><p>Went to Adult Ed at St. Pius X School to study and pass my high school French</p><br/><h4>"+
-	"2013: </h4><p>Graduated at Rosemount High school with diploma</p>"+
-	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>"
+	g.titleText.innerHTML = "<h1>MY EDUCATION</h1>";
+	g.contentText.innerHTML = "<p>" +
+	"I graduated and received my diploma for <span class='hl'>Computer Science</span> in "+
+	"<span class='hl'>Dawson College.<span></p><br/><br/>"+
+	"<p>While I don't seem impressive or polished as a University graduate, Dawson is <span class='hl'> "+
+	"different</span> from other Colleges. Within their <span class='hl'>3 year career path program</span>, "+
+	"they give us compressed lessons, teaching us how to start a project from scratch to a professional "+
+	"product similar to what you see in the real world. They don't force us to be obsessive with one field, "+
+	"they train us to become an <span class='hl'>all round developer</span>, excelling at <span class='hl'>"+
+	"adapting</span> to any languages when needed. We've built games, websites, apps, databases, networks, "+
+	"and even business and ethics. And that's only a fraction of our work."+
+	"</p><br/><br/>"+
+	"<p>But I'm not stopping there. Even with my aquired skills, I'm consistently looking for ways to expand "+
+	"my knowledge. I've bought top rated online courses, played with my own work, and became <span class='hl'>"+
+	"an asset</span> to companies willing to give me a chance. And we all know being a developer is more than "+
+	"just a graduation paper."
+	"</p>"
 	;
 }
 
@@ -66,16 +105,34 @@ function displayPassionText() {
 	g.navBtn[3].style.backgroundColor = "#16B8BF";
 
 	g.titleText.innerHTML = "<h1>MY PASSION</h1>";
-	g.contentText.innerHTML = "<p>" +
-	"I'm the type of person who strives and lives life by dreaming. Once I set a goal in my eyes,"+
-	" I never let it out of my sight. Below are some of my </p><h4>personal passions</h4><p> and"+
-	" </p><h4>personality attributes</h4><p>:"+
-	"</p>" + "<br/><br/><br/><br/>" +
-	"<ul><li>Ambitious in growing up as a person and gain skills to reach my goal</li>"
-	+ "<li>Extremely love to discuss about anything related to my interests and sharing ideas</li>"
-	+ "<li>My hobby is to draw, watch anime, play video games, and look up artworks</li>"
-	+ "<li>Enthusiastic gamer at heart, dreamt of becoming a game designer since baby</li>"
-	+ "<li>Cooperative and open-minded</li></ul><br/><br/><br/><br/>"
+	g.contentText.innerHTML =
+	"<p><span class='myQuote'>\"<span style='color:#16B8BF'>Developer</span> in mind. "+  
+	"<span style='color:#16B8BF'>Creator</span> at heart.\" - Me</span></p><br/><br/><br/>"+
+
+	"<p><span class='subtitle'>A little about me<span></p><br/><br/><br/>" +
+
+	"<p>I see myself as a very silly person. I'm usually very calm and collective, but I know how to crack a few "+
+	"terrible jokes from time to time. But when work comes to shove, I also know how to concentrate and get serious. "+
+	"Despite coming from a very technical background, I see myself much more of a creator than a programmer. "+
+	"That leads to my intereset in drawing, designing character concepts and personalities, reading books, writing "+
+	"stories, creating game concepts, and composing music one day. My hobbies include those and playing games, "+
+	"watching anime, and a strange obsession with looking for creative artworks.</p><br/><br/>"+
+
+	"<p><span class='subtitle'>My ambition<span></p><br/><br/><br/>"+
+
+	"<p>I believe any ambition typical roots back to everybody's childhood. We took in what we thought was cool and "+
+	"inspiring and eventually dream to become that someone to inspire others. I don't see games as only a form of escapism. "+
+	"Creating a game is another way to share your own creativity and idea of a world far beyond ours and then to experience "+
+	"it. That is the stem of my passion. I want to create and share my own game and pride. Even when everybody told me how "+
+	"competitive the industry is, I've never had a doubt in my mind of what I wanted to do. That desire led me to "+
+	"dream of becoming one of the most well known game designer in the world and I'll do it.</p><br/><br/>"+
+	
+	"<p><span class='subtitle'>So what now?<span></p><br/><br/><br/>"+
+
+	"<p>I am looking for opportunities to allow me to take the first step into the gaming industry door. I'm aware of "+
+	"what is required so I'm learning how to create games using C#, C++, Unity, and Unreal Engine using 2 best-selling "+
+	"online courses and skills I've acquired until now. I also plan to apply to a University to get a degree, but I'm not yet entirely sure when. Once I "+
+	"start my journey, I plan to take advantage of the countless inspirations I've gathered up until today to show my strength. </p>"
 	;
 }
 
@@ -301,8 +358,8 @@ function showChat() {
 //function on init to cache images
 function CacheImg() {
 	var imgSrc = new Image();
-	var imgArray = g.btnImages.concat(g.iconImages.concat
-							(g.bgImages.concat(g.galleryImages)));
+	var imgArray = g.iconImages.concat(g.bgImages);
+
 	for(var i=0; i<imgArray.length; i++)
 		imgSrc.src = imgArray[i];
 }
@@ -312,17 +369,17 @@ function init() {
 
 	//images inside g var
 	//gradient*
-	g.btnImages = ["images/cover_btn.jpg", "images/cover_btn_hover.jpg"];
-	g.iconImages = ["images/mail_icon.png", "images/phone_icon.png",
+	g.iconImages = ["images/email_icon.png", "images/phone_icon.png",
 					"images/fb_icon.png", "images/twitter_icon.png",
-					"images/googleplus_icon.png", "images/blueline.png"];
-	g.bgImages = ["images/Landscape_3.jpg", "images/myface.jpg"];
-	g.galleryImages = ["gallery/javacode.png", "gallery/mysqlcode.png",
+					"images/pixiv_icon.png", "images/blueline.png",
+					"images/linkedin_icon.png", "images/github_icon.png"];
+	g.bgImages = ["images/landscape_bg.jpg", "images/myface.jpg"];
+	/*g.galleryImages = ["gallery/javacode.png", "gallery/mysqlcode.png",
 					   "gallery/csharpcode.png", "gallery/webcode.png",
 					   "gallery/me1.jpg", "gallery/me2.jpg", 
 					   "gallery/me4.jpg", "gallery/work1.jpg",
 					   "gallery/hobby1.jpg", "gallery/hobby2.jpg",
-					   "gallery/lan1.png", "gallery/lan2.png"];
+					   "gallery/lan1.png", "gallery/lan2.png"];*/
 
 	//cache the images
 	CacheImg();
@@ -331,13 +388,13 @@ function init() {
 	g.previousTopic = 0;
 
 	//get objects from tags
-	g.coverBtn = document.getElementById("coverBtn");
+	g.uncoverBtn = document.getElementById("uncoverBtn");
 	g.titleText = document.getElementById("titleText");
 	g.contentText = document.getElementById("contentText");
 	g.navBar = document.getElementById("navBar");
 	g.navBtn = getElementsByClass("navBtn");
 
-	g.username = document.getElementById("nameInput");
+	/*g.username = document.getElementById("nameInput");
 	g.chatLabel = document.getElementById("chatLabel");
 	g.chatBox = document.getElementById("chatbox");
 	g.chatMsgBox = document.getElementById("chatMsgBox");
@@ -346,23 +403,25 @@ function init() {
 
 	//create request objects
 	g.request = createRequestObject();
-	g.requestInterval = createRequestObject();
+	g.requestInterval = createRequestObject();*/
 
 	//init stuff
+	//displaySkillsText();
 	displaySkillsText();
+	g.previousTopic = 0;
 	
-	g.msgNo = 0;
+	/*g.msgNo = 0;
 	g.chatBox.style.visibility = 'hidden';
 	g.chatMsgBox.style.visibility = 'hidden';
-	g.callServer;
+	g.callServer;*/
 
 	//add events
-	addEvent(g.coverBtn, "click", uncoverTopLayer);
+	addEvent(g.uncoverBtn, "click", uncoverTopLayer);
 
 	//not sure if onchange event is appropriate, was running out of time
 	//and my friend told me it's the quickiest fix
-	addEvent(g.username, "change", showChat);
-	addEvent(g.sendMsg, "click", sendMsgToChat);
+	/*addEvent(g.username, "change", showChat);
+	addEvent(g.sendMsg, "click", sendMsgToChat);*/
 	//alert("init");
 }
 

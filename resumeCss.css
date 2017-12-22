@@ -11,9 +11,9 @@ html, body {
 }
 
 header {
-	min-height: 15%;
-	/*width: 100%;*/
-	background-image: url("images/Landscape_3.jpg");
+	min-height: 20%;
+	width: 100%;
+	background-image: url("images/landscape_bg.jpg");
 	background-size: cover;
 }
 /*
@@ -27,8 +27,76 @@ img.headerGradient {
 	background-size: cover;
 }
 */
+
+
+/***************************************************
+	COVER
+****************************************************/
+#cover {
+	position: absolute;
+	/*top: 50%;*/
+	height: 204%;
+	width: 100%;
+	background-color: #252525;
+	z-index: 2;
+}
+
+#cover .face {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.face img {
+	width: auto;
+	height: 100%;
+}
+
+#cover .headerText1 { 
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#cover .headerText2 {
+	font-size: 60px;
+	color: #16B8BF;
+}
+
+#cover .subheaderText {
+	font-size: 30px;
+}
+
+#cover .blueTxt {
+	color: #16B8BF;
+}
+
+#uncoverBtn {
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-radius: 2px;
+
+	padding: 10px;
+
+	font-size: 30px;
+	color: #16B8BF;
+}
+
+#uncoverBtn:hover {
+	background-color: #16B8BF;
+	color: #FFFFFF;
+}
+
+
+/***************************************************
+	NAVBAR
+****************************************************/
 nav {
-	min-height: 5%;
+	min-height: 6%;
 	background-color: #252525;
 	font-size: 35px;
 }
@@ -49,47 +117,73 @@ nav ul {
 	background-color: #0C0C0C;
 }
 
-h1 {
-	color: #16B8BF;
-}
 
-h2 {
-	font-family: 'Ubuntu', sans-serif;
-}
-
+/***************************************************
+	CONTENT
+****************************************************/
 #contentDiv {
-	min-height: 110%;
-	background-color: #0C0C0C;
+	/*min-height: 100%;
+	/*background-color: #0C0C0C;
 	border-style: inset;
 	border-width: 6px;
-	border-color: #0F0F0F;
+	border-color: #0F0F0F;*/
 	z-index: 1;
 }
 
 #contentWrapper {
-	margin-left: 20%;
-	margin-top: 7%;
-	margin-right: 18%;
-}
-
-#contentWrapper p, #contentWrapper h4 {
-	display: inline;
-	font-size: 18px;
-	line-height: 25px;
-}
-
-#contentWrapper h4 {
-	color: #16B8BF;
-}
-
-#contentWrapper ul {
-	margin-left: 5%;
-	font-size: 20px;
+	padding-left: 20%;
+	padding-top: 7%;
+	padding-right: 18%;
 }
 
 #contentText {
 	position: relative;
 }
+
+
+#contentWrapper h1 {
+	color:#16B8BF;
+}
+
+
+#contentWrapper p {
+	display: inline;
+	font-size: 18px;
+	line-height: 25px;
+	color:#808080;
+}
+
+#contentWrapper .hl { /*highlight*/
+	color: #1F1F1F;
+	font-weight: bold;
+}
+
+#contentWrapper .subtitle {
+	color:#16B8BF;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#contentWrapper .yearTitle {
+	font-style: italic;
+	font-weight: bold;
+	color: #626262;
+}
+
+#contentWrapper ul {
+	margin-left: 2.5%;
+	font-size: 18px;
+	line-height: 25px;
+	color:#808080;
+}
+
+#contentWrapper .myQuote {
+	color: #1F1F1F;
+	font-size: 28px;
+	font-style: italic;
+}
+
+
 
 /*for skills tab*/
 #rightSkillList {
@@ -118,89 +212,71 @@ h2 {
 	height: 150px;
 }
 
+/***************************************************
+	GAMELINK
+****************************************************/
 #gamelink {
-	text-align: center;
-	margin-top: 2.5%;
-	text-decoration: none;
-}
-
-#cover h1 {
-	font-size: 40px;
-}
-
-#cover h2 {
+	background-color: #16B8BF;
+	color: #FFFFFF;
 	font-size: 20px;
+
+	text-align: center;
+	
+	margin-top: 10%;
+	padding-top: 4%;
+	padding-bottom: 4%
 }
 
-#cover {
-	position: absolute;
-	top: 46%;
-	height: 247%;
-	width: 100%;
-	background-color: #252525;
-	z-index: 2;
+#gamelink a {
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
-#cover h1, #cover h2 {
-	margin-left: 40%;
-}
 
-#cover h1 {
-	font-size: 80px;
-}
-
-#cover h2 {
-	font-size: 40px;
-}
-
-#face {
-	background-image: url("images/myface.jpg");
-	background-repeat: no-repeat;
-	border-radius: 50%;
-	width: 350px;
-	height: 350px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 3%;
-}
-
-#coverBtn {
-	background-image: url("images/cover_btn.jpg");
-	width: 482px;
-	height: 69px;
-	margin-left: 38%;
-}
-
-#coverBtn:hover {
-	background-image: url("images/cover_btn_hover.jpg");
-}
-
+/***************************************************
+	FOOTER
+****************************************************/
 footer {
 	min-height: 15%;
 	background-color: #252525;
 	position: relative;
+
+	padding-left: 10%;
+	padding-top: 3%;
 }
 
-#contactInfo {
-	margin-left: 10%;
-}
-
-#contactInfo h3, #followInfo h3, #chatroomWrapper h3 {
-	font-size: 30px;
+.footerHeader {
+	font-size: 24px;
+	font-weight: bold;
 	color: #16B8BF;
 }
 
-#contactInfo h4 {
-	font-size: 20px;
+.contactText {
+	font-size: 16px;
+	vertical-align: middle;
 }
 
-#followInfo, #chatroomWrapper {
+#followInfo {
+	position: absolute;
+	left: 50%;
+	top: 14%;
+}
+
+#followInfo img {
+	margin-left: 15px;
+}
+
+
+
+/***************************************************
+	CHATROOM
+****************************************************/
+/*#followInfo, #chatroomWrapper {
 	margin-left: 10%;
 	position: absolute;
 	left: 30%;
 	top: 0%;
-}
+}*/
 
 #chatroomWrapper {
 	left: 50%;

@@ -25,23 +25,31 @@
 			</ul>
 		</nav>
 		<div id="cover" style="opacity: 1.0;">
-			<br/><br/><br/><br/>
-			<h1>Hey!</h1>
-			<h2>I'm Thanh Nguyen</h2>
-			<img id="face">
-			<h2>I'm a </h2><h1>DAWSON </h1><h2>college student</h2>
-			<h2>studying in </h2><h1>COMPUTER<br/>SCIENCE</h1>
-			<br/><br/>
-			<img id="coverBtn">
+			<div class="face"><img src="images/myface.jpg"/></div>
+			<p>
+				<span class="headerText1">Hey! I'm </span>
+				<span class="headerText2">Thanh Nguyen</span>
+			</p>
+			<br/>
+			<p>
+				<span class="subheaderText blueTxt">Developer </span>
+				<span class="subheaderText">in mind.  </span>
+				<span class="subheaderText blueTxt">Creator </span>
+				<span class="subheaderText">at heart.</span>
+			</p>	
+			<br/><br/>		
+			<button id="uncoverBtn">Learn more about me</button>
+			<!--<img id="coverBtn">-->
 		</div>
 		<div id="contentDiv">
 			<div id="contentWrapper"  style="opacity: 0.0;">
 				<div id="titleText"></div>
+				<br/>
 				<img src="images/blueline.png">
 				<br/><br/><br/>
 				<div id="contentText"></div>
 			</div>
-			<div id="workGalleryWrapper">
+			<!--<div id="workGalleryWrapper">
 				<div id="galleryTitle">
 					<h1>My Gallery</h1>
 					<img src="images/blueline.png">
@@ -64,41 +72,54 @@
 					<img src="gallery/lan1.png" class="gallerypic">
 					<img src="gallery/lan2.png" class="gallerypic">
 				</div>
-			</div>
-			<!--for some reason I cannot click the link that directs to the game.
-				If I place it outside the contentDiv, it works completely fine.
-				I tried.. --><!--
-			<div id="gamelink">
-				<a href="Project1/memorygame.html"><h1>CLICK HERE</h1></a><h2> TO TRY OUT MY MEMORY GAME</h2>
 			</div>-->
-		</div>
-		<div id="gamelink">
-				<a href="Project1/memorygame.html"><h1>CLICK HERE</h1></a><h1> TO TRY OUT MY MEMORY GAME</h1>
-			</div>
-		
-		<footer>
-			<div id="contactInfo">
-				<br/><br/>
-				<h3>Contact Me</h3><br/>
-				<h4>
-					<img src="images/mail_icon.png">&nbsp;&nbsp;&nbsp;justin321261@hotmail.com
-				</h4>
+			<div id="gamelink">
+				<p>
+					<img src="images/github_icon.png" style="vertical-align:middle"/> &nbsp;&nbsp;
+					Want to see my work? Check out my projects @ 
+					<a href="https://github.com/Akisukei">
+						github.com/Akisukei
+					</a>
+				</p>
 				<br/>
-				<h4>
-					<img src="images/phone_icon.png">&nbsp;&nbsp;
-					514-299-7300
-				</h4>
+				<p>
+					<a href="Project1/memorygame.html" style="font-size:30px; color:#FFFFFF;">Or click here to try out my memory game!</a>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<div>
+				<div class="footerHeader">Contact Me</div>
+				<br/>
+				<div class="contactText">
+					<img src="images/email_icon.png" style="vertical-align:middle"/> &nbsp;&nbsp;&nbsp;
+					justin321261@hotmail.com
+				</div>
+				<br/>
+				<div class="contactText">
+					<img src="images/phone_icon.png" style="vertical-align:middle"> &nbsp;&nbsp;
+					(514)-299-7360
+				</div>
 			</div>
 			<div id="followInfo">
-				<br/><br/>
-				<h3>Follow Me</h3><br/>
-				<h4>
-					<img src="images/fb_icon.png">&nbsp;&nbsp;
-					<img src="images/twitter_icon.png">&nbsp;&nbsp;
-					<img src="images/googleplus_icon.png">
-				</h4>
+				<div class="footerHeader">Follow my social medias</div>
+				<br/>
+				<p>
+					<a href="https://www.facebook.com/justin.nguyen.714655">
+						<img src="images/fb_icon.png">
+					</a>
+					<a href="https://twitter.com/Akisukei_N">
+						<img src="images/twitter_icon.png">
+					</a>
+					<a href="https://www.pixiv.net/member.php?id=6884843">
+						<img src="images/pixiv_icon.png">
+					</a>
+					<a href="https://www.linkedin.com/in/thanh-tung-justin-nguyen-977b8714b/">
+						<img src="images/linkedin_icon.png">
+					</a>
+				</p>
 			</div>
-			<div id="chatroomWrapper">
+			<!--<div id="chatroomWrapper">
 				<br/><br/>
 				<h3>Come Chat with me</h3>
 
@@ -120,7 +141,7 @@
 					</label>
 					<input type="button" value="Send" id="sendBtn">
 				</div>
-			</div>
+			</div>-->
 		</footer>
 	</body>
 </html>
