@@ -202,8 +202,9 @@ function uncoverTopLayer() {
 		function coverFade() {
 			if(coverElem.style.opacity <= 0) {
 				clearInterval(coverAnimation);
-				removeEvent(g.coverBtn, "click", uncoverTopLayer);
-				/*alert("clear");*/
+				removeEvent(g.uncoverBtn, "click", uncoverTopLayer);
+				coverElem.style.left = 0 + 'px';
+				coverElem.style.height = 0 + '%';
 			}
 			else {
 				coverElem.style.opacity = parseFloat(coverElem.style.opacity) - 0.1;
