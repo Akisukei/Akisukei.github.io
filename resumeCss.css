@@ -16,6 +16,13 @@ header {
 	background-image: url("images/landscape_bg.jpg");
 	background-size: cover;
 }
+
+header .nameLabel {
+	position: absolute;
+	font-size: 26px;
+	top: 5%;
+	left: 3%;
+}
 /*
 img.headerGradient {
 	width: 100%;
