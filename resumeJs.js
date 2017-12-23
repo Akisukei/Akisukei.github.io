@@ -410,6 +410,9 @@ function init() {
 	//displaySkillsText();
 	displaySkillsText();
 	g.previousTopic = 0;
+
+	if(document.documentElement.scrollTop > 10)
+		uncoverTopLayer();
 	
 	/*g.msgNo = 0;
 	g.chatBox.style.visibility = 'hidden';
@@ -423,7 +426,7 @@ function init() {
 	//and my friend told me it's the quickiest fix
 	/*addEvent(g.username, "change", showChat);
 	addEvent(g.sendMsg, "click", sendMsgToChat);*/
-	//alert("init");
+	//alert();
 }
 
 window.onload = init;
