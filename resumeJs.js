@@ -117,6 +117,7 @@ function displayPassionText() {
 	"That leads to my intereset in drawing, designing character concepts and personalities, reading books, writing "+
 	"stories, creating game concepts, and composing music one day. My hobbies include those and playing games, "+
 	"watching anime, and a strange obsession with looking for creative artworks.</p><br/><br/>"+
+	"<p><a href='https://imgur.com/a/vdtFg'>Have a look at my first story</a></p><br/><br/>"+
 
 	"<p><span class='subtitle'>My ambition<span></p><br/><br/><br/>"+
 
