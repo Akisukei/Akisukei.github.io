@@ -8,6 +8,7 @@ html, body {
 	height: 150%;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
+	background-color: #252525; 
 }
 
 header {
@@ -136,6 +137,7 @@ nav ul {
 	border-width: 6px;
 	border-color: #0F0F0F;*/
 	z-index: 1;
+	background-color: #FFFFFF;
 }
 
 #contentWrapper {
