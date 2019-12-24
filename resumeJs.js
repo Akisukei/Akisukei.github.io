@@ -10,14 +10,14 @@ function displaySkillsText() {
 	"<p>My skills range in many areas, getting my hands dirty with web designing, developing applications, "+
 	"designing efficient database structures, and more.</p><br/><br/>"+
 	"<ul>"+
-	"<li>Experienced with OOP (object oriented programming) for <span class='hl'>Java</span> and "+
-		"<span class='hl'>Android</span>, very familiar with <span class='hl'>C#</span></li>"+
+	"<li>Experienced with OOP (object oriented programming) for <span class='hl'>Java</span> (and Android), "+
+		"<span class='hl'>C#</span>, and <span class='hl'>C++</span></li>"+
 	"<li>Practical with <span class='hl'>HTML, CSS, JavaScript, PHP, MySQL,</span> and <span class='hl'>JDBC</span></li>"+
 	"<li>Designing <span class='hl'>UML diagrams for OOP</span> and <span class='hl'>EDMX for databases</span> to create strong and flexible coding</li>"+
 	"<li>Capable of using <span class='hl'>GIT</span> to manage projects among the team and ensure backups </li>"+
 	"<li>Consistent in following <span class='hl'>programming principles</span> and <span class='hl'>strategy patterns</span></li>"+
 	"<li>Strong in <span class='hl'>GUI designing</span></li>"+
-	"<li>Beginner knowledge in <span class='hl'>C++, Unity,</span> and <span class='hl'>Unreal Engine</span></li>"+
+	"<li>Junior level knowledge of <span class='hl'>Unity,</span> and <span class='hl'>Unreal Engine</span></li>"+
 	"</ul><br/><br/>"+
 	"<p><span class='subtitle'>Management Tools<span></p><br/><br/><br/>"+
 	"<ul>"+
@@ -45,22 +45,28 @@ function displayWorkText() {
 
 	g.titleText.innerHTML = "<h1>MY WORK EXPERIENCE</h1>";
 	g.contentText.innerHTML = "<p><span class='subtitle'>" +
-	"Professional work<span></p><br/><br/>"+
+	"Professional Work<span></p><br/><br/>"+
 	"<p><span class='yearTitle'>2017 Summer - Winter</span></p><br/>"+
 	"<p>My manager at <span class='hl'>CityParking</span> kept me after my internship and training was over. "+
 	"From there, I worked closely with two senior developers (one was an advisor) to build the Android app. "+
-	"While looking with two professionals, I was able to absorb a lot of knowledge and criticism. I learned "+
+	"While working with two professionals, I was able to absorb a lot of knowledge and criticism. I learned "+
 	"how to use numerous frameworks, implement APIs, and code with good practices. I was also given the role "+
 	"of lead designer for the UI screens of the app. </p><br/><br/>"+
 	"<p><span class='yearTitle'>2017 Spring - Summer</span></p><br/>"+
 	"<p>An Android developer intern at <span class='hl'>CityParking</span> in the course of 4 weeks. Within "+
 	"this period, my first mentor taught me basic frameworks, how to efficiently organize my code, use Sourcetree "+
 	"to manage the project quicker, setting up an architecture, etc. Meanwhile, my manager also showed me how "+
-	"to use Jira to manage tasks, properly create documentation, follow material design guidelines, perform QA, "+
+	"to use Jira to manage tasks, write documentations, follow material design guidelines, perform QA, "+
 	"and other skills required in a professional environment. </p><br/><br/>"+
-	"<p><span class='hl'>My work experience as a new graduate is evitably small. However, you can give me the opportunity to expand it! :)</span>"+
-	"</p><br/><br/><br/><br/>"+
+	"</p><br/><br/><br/>"+
 	"<p><span class='subtitle'>School Projects<span></p><br/><br/><br/>"+
+	"<p><span class='yearTitle'>Concordia University</span></p><br/>"+
+	"<ul>"+
+	"<li><span class='hl'>Java:</span> assignments that explores the design and analysis of sorting and searching algorithms using numerous data structures</li>"+
+	"<li><span class='hl'>C++:</span> development of a game similar to RISK played on the console</li>"+
+	"<li><span class='hl'>Others:</span> C language, Ruby, Prolog, LISP</li>"+
+	"</ul>"+
+	"<br/><p><span class='yearTitle'>Dawson College</span></p><br/>"+
 	"<ul>"+
 	"<li><span class='hl'>Android:</span> coded a Tic-Tac-Toe game, a quote generator app, an app to see reviews of popular restaurants all compatible with different phone and pad screen sizes</li>"+
 	"<li><span class='hl'>C#:</span> programmed games such as Tic-Tac-Toe, Battleship, and usage of the MonoGames framework to assist in running and providing animations for Tetris</li>"+
@@ -81,20 +87,20 @@ function displayEducationText() {
 
 	g.titleText.innerHTML = "<h1>MY EDUCATION</h1>";
 	g.contentText.innerHTML = "<p>" +
-	"I graduated and received my diploma for <span class='hl'>Computer Science</span> in "+
+	"Currently in my fourth semester at <span class='hl'>Concordia University</span> majoring in "+
+	"<span class='hl'>Computer Games.<span></p><br/><br/>"+
+	"<p>I graduated and received my diploma for <span class='hl'>Computer Science</span> in "+
 	"<span class='hl'>Dawson College.<span></p><br/><br/>"+
-	"<p>While I don't seem impressive or polished as a University graduate, Dawson is <span class='hl'> "+
-	"different</span> from other Colleges. Within their <span class='hl'>3 year career path program</span>, "+
-	"they give us compressed lessons, teaching us how to start a project from scratch to a professional "+
-	"product similar to what you see in the real world. They don't force us to be obsessive with one field, "+
-	"they train us to become an <span class='hl'>all round developer</span>, excelling at <span class='hl'>"+
+	"<p>While I don't seem impressive or polished as a University graduate, Dawson's 3 year career path program "+
+	"have prepared me to be ready right after being hired. They gave us compressed lessons, teaching us how to start "+
+	"a project from scratch to a professional product similar to what you see in the real world. "+
+	"They've trained us to become an <span class='hl'>all round developer</span>, excelling at <span class='hl'>"+
 	"adapting</span> to any languages when needed. We've built games, websites, apps, databases, networks, "+
-	"and even business and ethics. And that's only a fraction of our work."+
+	"and even business and ethics."+
 	"</p><br/><br/>"+
-	"<p>But I'm not stopping there. Even with my aquired skills, I'm consistently looking for ways to expand "+
-	"my knowledge. I've bought top rated online courses, played with my own work, and became <span class='hl'>"+
-	"an asset</span> to companies willing to give me a chance. And we all know being a developer is more than "+
-	"just a graduation paper."
+	"<p>Even with my aquired skills, I'm consistently looking for ways to expand my knowledge. I've bought top "+
+	"rated online courses, played with my own work, and showed impressive growth during my internship. I realize being "+
+	"a developer is more than just a graduation paper."
 	"</p>"
 	;
 }
@@ -111,29 +117,21 @@ function displayPassionText() {
 
 	"<p><span class='subtitle'>A little about me<span></p><br/><br/><br/>" +
 
-	"<p>I see myself as a very silly person. I'm usually very calm and collective, but I know how to crack a few "+
-	"terrible jokes from time to time. But when work comes to shove, I also know how to concentrate and get serious. "+
-	"Despite coming from a very technical background, I see myself much more of a creator than a programmer. "+
-	"That leads to my intereset in drawing, designing character concepts and personalities, reading books, writing "+
-	"stories, creating game concepts, and composing music one day. My hobbies include those and playing games, "+
+	"<p>I'm usually very calm and collective, but I'm a very silly and free person. I also know how to concentrate and get "+
+	"serious once work comes to shove. Despite coming from a very technical background, I see myself much more of a creator "+
+	"than just a simple programmer. That leads to my interest in drawing, reading books, writing stories, brainstorming game "+
+	"concepts, designing character concepts and personalities, and music composition. My hobbies include those and playing games, "+
 	"watching anime, and a strange obsession with looking for creative artworks.</p><br/><br/>"+
-	"<p><a href='https://imgur.com/a/vdtFg'>Have a look at my first story</a></p><br/><br/>"+
+	"<p><a href='https://imgur.com/a/vdtFg'>Feel free to peek at one of my story.</a></p><br/><br/><br/>"+
 
-	"<p><span class='subtitle'>My ambition<span></p><br/><br/><br/>"+
+	"<p><span class='subtitle'>My Ambition<span></p><br/><br/><br/>"+
 
 	"<p>I believe any ambition typical roots back to everybody's childhood. We took in what we thought was cool and "+
-	"inspiring and eventually dream to become that someone to inspire others. I don't see games as only a form of escapism. "+
-	"Creating a game is another way to share your own creativity and idea of a world far beyond ours and then to experience "+
-	"it. That is the stem of my passion. I want to create and share my own game and pride. Even when everybody told me how "+
+	"inspiring and eventually dream to become that someone to inspire others. Games aren't just meant to be played. They are a form of interactive art. "+
+	"Creating a game is another way to share your own creativity and idea of a fantasy far beyond our world and then to feel the experience and emotion from that "+
+	"world. That is the stem of my passion. I want to create and share my own game and pride. Even when everybody told me how "+
 	"competitive the industry is, I've never had a doubt in my mind of what I wanted to do. That desire led me to "+
-	"dream of becoming one of the most well known game designer in the world and I'll do it.</p><br/><br/>"+
-	
-	"<p><span class='subtitle'>So what now?<span></p><br/><br/><br/>"+
-
-	"<p>I am looking for opportunities to allow me to take the first step into the gaming industry door. I'm aware of "+
-	"what is required so I'm learning how to create games using C#, C++, Unity, and Unreal Engine using 2 best-selling "+
-	"online courses and skills I've acquired until now. I also plan to apply to a University to get a degree, but I'm not yet entirely sure when. Once I "+
-	"start my journey, I plan to take advantage of the countless inspirations I've gathered up until today to show my strength. </p>"
+	"dream of becoming one of the most well known game designer in the world and I'll do it.</p><br/><br/><br/>"
 	;
 }
 
@@ -208,12 +206,12 @@ function uncoverTopLayer() {
 				coverElem.style.height = 0 + '%';
 			}
 			else {
-				coverElem.style.opacity = parseFloat(coverElem.style.opacity) - 0.1;
+				coverElem.style.opacity = parseFloat(coverElem.style.opacity) - 0.05;
 				pos += 3;
 				coverElem.style.left = pos + 'px';
 			}
 		}
-	, 50);
+	, 5);
 
 	initContentLayer();
 	/*alert("works");*/
