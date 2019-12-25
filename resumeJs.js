@@ -117,8 +117,7 @@ function displayPassionText() {
 
 	"<p><span class='subtitle'>A little about me<span></p><br/><br/><br/>" +
 
-	"<p>I'm usually very calm and collective, but I'm a very silly and free person. I also know how to concentrate and get "+
-	"serious once work comes to shove. Despite coming from a very technical background, I see myself much more of a creator "+
+	"<p>Calm and collective, but also a very silly and free person. Despite coming from a very technical background, I see myself much more of a creator "+
 	"than just a simple programmer. That leads to my interest in drawing, reading books, writing stories, brainstorming game "+
 	"concepts, designing character concepts and personalities, and music composition. My hobbies include those and playing games, "+
 	"watching anime, and a strange obsession with looking for creative artworks.</p><br/><br/>"+
@@ -373,7 +372,7 @@ function init() {
 					"images/fb_icon.png", "images/twitter_icon.png",
 					"images/pixiv_icon.png", "images/blueline.png",
 					"images/linkedin_icon.png", "images/github_icon.png"];
-	g.bgImages = ["images/landscape_bg.jpg", "images/myface.jpg"];
+	g.bgImages = ["images/landscape_bg.jpg", "images/myface.png"];
 	/*g.galleryImages = ["gallery/javacode.png", "gallery/mysqlcode.png",
 					   "gallery/csharpcode.png", "gallery/webcode.png",
 					   "gallery/me1.jpg", "gallery/me2.jpg", 
@@ -410,8 +409,8 @@ function init() {
 	displaySkillsText();
 	g.previousTopic = 0;
 
-	if(document.documentElement.scrollTop > 10)
-		uncoverTopLayer();
+	//if(document.documentElement.scrollTop > 10)
+		//uncoverTopLayer();
 	
 	/*g.msgNo = 0;
 	g.chatBox.style.visibility = 'hidden';
