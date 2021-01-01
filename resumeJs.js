@@ -91,7 +91,7 @@ function displayEducationText() {
 	"Currently in my last semester before graduating at <span class='hl'>Concordia University</span> majoring in "+
 	"<span class='hl'>Computer Games.<span></p><br/><br/>"+
 	"<p>I graduated and received my diploma for <span class='hl'>Computer Science</span> in "+
-	"<span class='hl'>Dawson College.<span></p><br/><br/>"+
+	"<span class='hl'>Dawson College.</span></p><br/><br/>"+
 	"<p>Dawson's 3 year career path program "+
 	"have prepared me to be ready right after being hired. They gave us compressed lessons, teaching us how to start "+
 	"a project from scratch to a professional product similar to what you see in the real world. "+
@@ -99,7 +99,7 @@ function displayEducationText() {
 	"adapting</span> to any languages when needed. We've built games, websites, apps, databases, networks, "+
 	"and even business and ethics."+
 	"</p><br/><br/>"+
-	"<p>Meanwhile, Concordia has allowed me to learn the in-depth theories behind computers and other knowledge I would "+
+	"<p>Meanwhile, <span class='hl'>Concordia</span> has allowed me to learn the in-depth theories behind computers and other knowledge I would "+
 	"not have the chance to learn in Dawson. Specifically, data structures, algorithms, computer graphics, artificial intelligence, etc."+
 	"</p><br/><br/>"+
 	"<p>Even with my aquired skills, I'm consistently looking for ways to expand my knowledge. I've bought top "+
