@@ -12,17 +12,17 @@ function displaySkillsText() {
 	"<ul>"+
 	"<li>Experienced with OOP (object oriented programming) for <span class='hl'>Java</span> (and Android), "+
 		"<span class='hl'>C#</span>, and <span class='hl'>C++</span></li>"+
-	"<li>Practical with <span class='hl'>HTML, CSS, JavaScript, PHP, MySQL,</span> and <span class='hl'>JDBC</span></li>"+
+	"<li>Practical with <span class='hl'>HTML, CSS, JavaScript, PHP, Python, Ruby, MySQL,</span> and <span class='hl'>JDBC</span></li>"+
 	"<li>Designing <span class='hl'>UML diagrams for OOP</span> and <span class='hl'>EDMX for databases</span> to create strong and flexible coding</li>"+
 	"<li>Capable of using <span class='hl'>GIT</span> to manage projects among the team and ensure backups </li>"+
 	"<li>Consistent in following <span class='hl'>programming principles</span> and <span class='hl'>strategy patterns</span></li>"+
 	"<li>Strong in <span class='hl'>GUI designing</span></li>"+
-	"<li>Junior level knowledge of <span class='hl'>Unity,</span> and <span class='hl'>Unreal Engine</span></li>"+
+	"<li>Worked several projects with <span class='hl'>Unity,</span> and touched a little bit of <span class='hl'>Unreal Engine</span></li>"+
 	"</ul><br/><br/>"+
 	"<p><span class='subtitle'>Management Tools<span></p><br/><br/><br/>"+
 	"<ul>"+
 	"<li>Word, PowerPoint, Visio</li>"+
-	"<li>Jira</li>"+
+	"<li>Jira, Trello</li>"+
 	"<li>Confluence</li>"+
 	"<li>Invision</li>"+
 	"<li>Clip Paint Studio (similar to PhotoShop)</li>"+
@@ -63,8 +63,9 @@ function displayWorkText() {
 	"<p><span class='yearTitle'>Concordia University</span></p><br/>"+
 	"<ul>"+
 	"<li><span class='hl'>Java:</span> assignments that explores the design and analysis of sorting and searching algorithms using numerous data structures</li>"+
+	"<li><span class='hl'>C#:</span> programmed 2 games in 2D and 3D with Unity</li>"+
 	"<li><span class='hl'>C++:</span> development of a game similar to RISK played on the console</li>"+
-	"<li><span class='hl'>Others:</span> C language, Ruby, Prolog, LISP</li>"+
+	"<li><span class='hl'>Others:</span> C language, Ruby, Python, Prolog, LISP</li>"+
 	"</ul>"+
 	"<br/><p><span class='yearTitle'>Dawson College</span></p><br/>"+
 	"<ul>"+
@@ -87,20 +88,22 @@ function displayEducationText() {
 
 	g.titleText.innerHTML = "<h1>MY EDUCATION</h1>";
 	g.contentText.innerHTML = "<p>" +
-	"Currently in my fourth semester at <span class='hl'>Concordia University</span> majoring in "+
+	"Currently in my last semester before graduating at <span class='hl'>Concordia University</span> majoring in "+
 	"<span class='hl'>Computer Games.<span></p><br/><br/>"+
 	"<p>I graduated and received my diploma for <span class='hl'>Computer Science</span> in "+
 	"<span class='hl'>Dawson College.<span></p><br/><br/>"+
-	"<p>While I don't seem impressive or polished as a University graduate, Dawson's 3 year career path program "+
+	"<p>Dawson's 3 year career path program "+
 	"have prepared me to be ready right after being hired. They gave us compressed lessons, teaching us how to start "+
 	"a project from scratch to a professional product similar to what you see in the real world. "+
 	"They've trained us to become an <span class='hl'>all round developer</span>, excelling at <span class='hl'>"+
 	"adapting</span> to any languages when needed. We've built games, websites, apps, databases, networks, "+
 	"and even business and ethics."+
 	"</p><br/><br/>"+
+	"<p>Meanwhile, Concordia has allowed me to learn the in-depth theories behind computers and other knowledge I would "+
+	"not have the chance to learn in Dawson. Specifically, data structures, algorithms, computer graphics, artificial intelligence, etc."+
+	"</p><br/><br/>"+
 	"<p>Even with my aquired skills, I'm consistently looking for ways to expand my knowledge. I've bought top "+
-	"rated online courses, played with my own work, and showed impressive growth during my internship. I realize being "+
-	"a developer is more than just a graduation paper."
+	"rated online courses, played with my own work, and showed impressive growth during my internship. "+
 	"</p>"
 	;
 }
