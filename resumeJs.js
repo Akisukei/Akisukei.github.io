@@ -63,7 +63,7 @@ function displayWorkText() {
 	"<p><span class='yearTitle'>Concordia University</span></p><br/>"+
 	"<ul>"+
 	"<li><span class='hl'>Java:</span> assignments that explores the design and analysis of sorting and searching algorithms using numerous data structures</li>"+
-	"<li><span class='hl'>C#:</span> programmed 2 games in 2D and 3D with Unity</li>"+
+	"<li><span class='hl'>C#/Unity:</span> (3D) fish simulator with HD render pipeline and worked on the AI, flocking, and post-processing, Pacman multiplayer using Photon Engine networking and pathfinding, and others. (2D) Multiple puzzle & combat platform games (won McGame Jam).</li>"+
 	"<li><span class='hl'>C++:</span> development of a game similar to RISK played on the console</li>"+
 	"<li><span class='hl'>Others:</span> C language, Ruby, Python, Prolog, LISP</li>"+
 	"</ul>"+
@@ -88,8 +88,8 @@ function displayEducationText() {
 
 	g.titleText.innerHTML = "<h1>MY EDUCATION</h1>";
 	g.contentText.innerHTML = "<p>" +
-	"Currently in my last semester before graduating at <span class='hl'>Concordia University</span> majoring in "+
-	"<span class='hl'>Computer Games.<span></p><br/><br/>"+
+	"Graduated from <span class='hl'>Concordia University</span> with a Bachelor's Degree in "+
+	"<span class='hl'>Computer Science.<span></p><br/><br/>"+
 	"<p>I graduated and received my diploma for <span class='hl'>Computer Science</span> in "+
 	"<span class='hl'>Dawson College.</span></p><br/><br/>"+
 	"<p>Dawson's 3 year career path program "+
@@ -121,19 +121,23 @@ function displayPassionText() {
 	"<p><span class='subtitle'>A little about me<span></p><br/><br/><br/>" +
 
 	"<p>Calm and collective, but also a very silly and free person. Despite coming from a very technical background, I see myself much more of a creator "+
-	"than just a simple programmer. That leads to my interest in drawing, reading books, writing stories, brainstorming game "+
-	"concepts, designing character concepts and personalities, and music composition. My hobbies include those and playing games, "+
-	"watching anime, and a strange obsession with looking for creative artworks.</p><br/><br/>"+
+	"than just a simple programmer. That leads to my hobbies in drawing, reading books, writing stories, brainstorming game "+
+	"concepts, designing character concepts and personalities, and music composition. I also love anime and movies and I'm grateful we have the technologies  "+
+	"that bring these to life.</p><br/><br/>"+
 	"<p><a href='https://imgur.com/a/vdtFg'>Feel free to peek at one of my story.</a></p><br/><br/><br/>"+
 
 	"<p><span class='subtitle'>My Ambition<span></p><br/><br/><br/>"+
 
-	"<p>I believe any ambition typical roots back to everybody's childhood. We took in what we thought was cool and "+
-	"inspiring and eventually dream to become that someone to inspire others. Games aren't just meant to be played. They are a form of interactive art. "+
-	"Creating a game is another way to share your own creativity and idea of a fantasy far beyond our world and then to feel the experience and emotion from that "+
-	"world. That is the stem of my passion. I want to create and share my own game and pride. Even when everybody told me how "+
-	"competitive the industry is, I've never had a doubt in my mind of what I wanted to do. That desire led me to "+
-	"dream of becoming one of the most well known game designer in the world and I'll do it.</p><br/><br/><br/>"
+	//"<p>I believe any ambition typical roots back to everybody's childhood. We took in what we thought was cool and "+
+	//"inspiring and eventually dream to become that someone to inspire others. Games aren't just meant to be played. They are a form of interactive art. "+
+	//"Creating a game is another way to share your own creativity and idea of a fantasy far beyond our world and then to feel the experience and emotion from that "+
+	//"world. That is the stem of my passion. I want to create and share my own game and pride. Even when everybody told me how "+
+	//"competitive the industry is, I've never had a doubt in my mind of what I wanted to do. That desire led me to "+
+	//"dream of becoming one of the most well known game designer in the world and I'll do it.</p><br/><br/><br/>"
+	//;
+	"<p>As a fridgety person, I cannot see myself being just a regular person with a regular job doing regular things. My desire and amibiton for "+
+	"greatness is in my heart and eventually I want to be that person known for creating whatever it may be. Even after I leave my mark, I doubt "+
+	"I will simply stop there. I simply thought nothing would feel more better than to make my mother proud of me.</p><br/><br/><br/>"
 	;
 }
 
