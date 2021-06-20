@@ -137,7 +137,7 @@ function displayPassionText() {
 	//;
 	"<p>As a fridgety person, I cannot see myself being just a regular person with a regular job doing regular things. My desire and amibiton for "+
 	"greatness is in my heart and eventually I want to be that person known for creating whatever it may be. Even after I leave my mark, I doubt "+
-	"I will simply stop there. I simply thought nothing would feel more better than to make my mother proud of me.</p><br/><br/><br/>"
+	"I will stop there. I simply thought nothing would feel more better than to make my mother proud of me.</p><br/><br/><br/>"
 	;
 }
 
